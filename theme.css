@@ -1,0 +1,8 @@
+body {
+    font-family: '__Raleway_88131f', '__Raleway_Fallback_88131f';
+    font-style: normal;
+}
+
+.pageTitleWithDefaultLogo {
+    background-image: url("./img/notflix.svg")
+}
