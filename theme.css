@@ -8,21 +8,44 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
+.backgroundContainer {
+    background-image: url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=2111&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.cardOverlayContainer,
+.cardContent,
+.cardBox:not(.visualCardBox) .cardPadder {
+    border-radius: 1em;
+}
+
 :root {
     --color-primary: #83DEF0;
+    --color-primary-dark: #4e99a8;
     --color-contrast: #52DE7E;
 
     --color-background: #202020;
     --color-background-accent: #282828;
-  }
-  
-  .paper-icon-button-light {
-    color: var(--color-primary) !important;
-  }
+}
 
-  @media (hover: hover) and (pointer: fine) {
+.paper-icon-button-light {
+    color: var(--color-primary) !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
     .paper-icon-button-light:hover:not(:disabled) {
         color: var(--color-contrast) !important;
         background-color: var(--color-background-accent) !important;
     }
+}
+
+.emby-tab-button {
+    color: var(--color-primary-dark) !important;
+}
+
+.emby-tab-button-active {
+    color: var(--color-primary) !important;
+}
+
+.emby-tab-button:hover {
+    color: var(--color-contrast) !important;
 }
