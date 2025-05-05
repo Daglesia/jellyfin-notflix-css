@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 .pageTitleWithDefaultLogo {
     background-image: url("https://raw.githubusercontent.com/Daglesia/jellyfin-notflix-css/refs/heads/main/img/notflix.svg");
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+:root {
+    --color-primary: #83DEF0;
+    --color-contrast: #52DE7E;
+
+    --color-background: #202020;
+    --color-background-accent: #282828;
+  }
+  
+  .paper-icon-button-light {
+    color: var(--color-primary) !important;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .paper-icon-button-light:hover:not(:disabled) {
+        color: var(--color-contrast) !important;
+        background-color: var(--color-background-accent) !important;
+    }
 }
