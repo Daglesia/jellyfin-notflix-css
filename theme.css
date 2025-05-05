@@ -1,8 +1,3 @@
-body {
-    font-family: '__Raleway_88131f', '__Raleway_Fallback_88131f';
-    font-style: normal;
-}
-
 .pageTitleWithDefaultLogo {
-    background-image: url("./img/notflix.svg")
+    background-image: url("https://raw.githubusercontent.com/Daglesia/jellyfin-notflix-css/refs/heads/main/img/notflix.svg");
 }
