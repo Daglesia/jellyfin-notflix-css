@@ -58,5 +58,5 @@ body {
 
 .ratingbutton-icon-withrating {
     color: var(--color-primary) !important;
-    content: "\e87d";
+    content: "\e87d" !important;
 }
