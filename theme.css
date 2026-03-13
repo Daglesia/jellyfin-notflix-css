@@ -49,3 +49,12 @@ body {
 .emby-tab-button:hover {
     color: var(--color-contrast) !important;
 }
+
+.material-icons.favorite:before {
+    content: "\e87e";
+}
+
+.ratingbutton-icon-withrating {
+    color: var(--color-primary) !important;
+    content: "\e87d";
+}
