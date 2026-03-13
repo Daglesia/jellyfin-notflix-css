@@ -60,3 +60,7 @@ body {
     color: var(--color-primary) !important;
     content: "\e87d" !important;
 }
+
+.cardOverlayContainer, .cardContent, .cardBox:not(.visualCardBox) .cardPadder {
+    border-radius: 0.6em;
+}
